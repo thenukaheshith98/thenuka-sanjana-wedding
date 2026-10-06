@@ -32,8 +32,8 @@ window.WEDDING = {
   quote:
     "Two souls, one promise — written in the language of forever.",
 
-  datetime: "2026-12-12T10:00:00+05:30",
-  displayDate: "Saturday, 12 December 2026",
+  datetime: "2026-12-03T10:00:00+05:30",
+  displayDate: "Thursday, 3 December 2026",
   rsvpDeadline: "15 November 2026",
 
   /**
@@ -65,8 +65,8 @@ window.WEDDING = {
       id: "poruwa",
       title: "Poruwa Ceremony",
       time: "10:00 in the morning",
-      isoStart: "2026-12-12T10:00:00+05:30",
-      isoEnd: "2026-12-12T12:00:00+05:30",
+      isoStart: "2026-12-03T10:00:00+05:30",
+      isoEnd: "2026-12-03T12:00:00+05:30",
       venue: "The Oaks, Cinnamon Grand",
       note: "Traditional vows beneath the poruwa",
     },
@@ -74,8 +74,8 @@ window.WEDDING = {
       id: "reception",
       title: "Wedding Reception",
       time: "7:00 in the evening",
-      isoStart: "2026-12-12T19:00:00+05:30",
-      isoEnd: "2026-12-12T23:30:00+05:30",
+      isoStart: "2026-12-03T19:00:00+05:30",
+      isoEnd: "2026-12-03T23:30:00+05:30",
       venue: "Cinnamon Grand Ballroom",
       note: "Dinner, toasts, and the first dance",
     },
@@ -83,8 +83,8 @@ window.WEDDING = {
       id: "homecoming",
       title: "Homecoming",
       time: "6:30 in the evening",
-      isoStart: "2026-12-13T18:30:00+05:30",
-      isoEnd: "2026-12-13T22:30:00+05:30",
+      isoStart: "2026-12-04T18:30:00+05:30",
+      isoEnd: "2026-12-04T22:30:00+05:30",
       venue: "The Family Home, Nugegoda",
       note: "An intimate evening with close family",
     },
