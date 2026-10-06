@@ -437,12 +437,6 @@ a {
   color: var(--gold-deep);
 }
 
-.hero__couple {
-  width: min(100%, 280px);
-  margin: 16px auto 0;
-  mix-blend-mode: multiply;
-}
-
 .hero__quote {
   max-width: 28ch;
   margin: 28px auto 0;
