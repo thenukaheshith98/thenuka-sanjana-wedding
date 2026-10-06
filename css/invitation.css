@@ -159,7 +159,7 @@ a {
 .cover {
   position: relative;
   z-index: 1;
-  width: min(100%, 400px);
+  width: min(100%, 360px);
   max-height: calc(100dvh - 32px);
   overflow: auto;
   border-radius: 36px;
@@ -201,7 +201,7 @@ a {
   margin: 10px 0 6px;
   font-family: var(--font-script);
   font-weight: 400;
-  font-size: clamp(48px, 14vw, 64px);
+  font-size: clamp(42px, 12vw, 56px);
   line-height: 0.95;
   color: var(--gold-deep);
 }
@@ -232,9 +232,9 @@ a {
 }
 
 .cover__photo {
-  width: min(100%, 300px);
-  margin: 8px auto 10px;
-  border-radius: 18px;
+  width: min(100%, 220px);
+  margin: 6px auto 8px;
+  border-radius: 16px;
   object-fit: cover;
   aspect-ratio: 3 / 4;
   display: block;
@@ -323,7 +323,7 @@ a {
   }
 
   .cover__photo {
-    width: 200px;
+    width: 180px;
   }
 
   .cover__guest {
