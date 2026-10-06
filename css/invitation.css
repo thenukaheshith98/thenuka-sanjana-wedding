@@ -159,7 +159,7 @@ a {
 .cover {
   position: relative;
   z-index: 1;
-  width: min(100%, 360px);
+  width: min(100%, 320px);
   max-height: calc(100dvh - 32px);
   overflow: auto;
   border-radius: 36px;
@@ -175,8 +175,8 @@ a {
 }
 
 .cover__frame {
-  margin: 10px;
-  padding: 28px 20px 22px;
+  margin: 8px;
+  padding: 18px 16px 16px;
   text-align: center;
   border-radius: 28px;
   border: 1.5px solid var(--gold);
@@ -198,10 +198,10 @@ a {
 }
 
 .cover__names {
-  margin: 10px 0 6px;
+  margin: 6px 0 4px;
   font-family: var(--font-script);
   font-weight: 400;
-  font-size: clamp(42px, 12vw, 56px);
+  font-size: clamp(36px, 10vw, 48px);
   line-height: 0.95;
   color: var(--gold-deep);
 }
@@ -224,7 +224,7 @@ a {
 }
 
 .cover__date {
-  margin: 16px 0 8px;
+  margin: 10px 0 6px;
   font-family: var(--font-display);
   font-size: 13px;
   letter-spacing: 0.28em;
@@ -232,8 +232,8 @@ a {
 }
 
 .cover__photo {
-  width: min(100%, 220px);
-  margin: 6px auto 8px;
+  width: min(100%, 176px);
+  margin: 4px auto 6px;
   border-radius: 16px;
   object-fit: cover;
   aspect-ratio: 3 / 4;
@@ -319,11 +319,11 @@ a {
   }
 
   .cover__names {
-    font-size: 44px;
+    font-size: 36px;
   }
 
   .cover__photo {
-    width: 180px;
+    width: 148px;
   }
 
   .cover__guest {
