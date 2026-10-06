@@ -231,10 +231,13 @@ a {
   color: var(--gold-deep);
 }
 
-.cover__couple {
-  width: min(100%, 280px);
-  margin: 4px auto 8px;
-  mix-blend-mode: multiply;
+.cover__photo {
+  width: min(100%, 300px);
+  margin: 8px auto 10px;
+  border-radius: 18px;
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+  display: block;
 }
 
 .cover__for-label {
@@ -319,7 +322,7 @@ a {
     font-size: 44px;
   }
 
-  .cover__couple {
+  .cover__photo {
     width: 200px;
   }
 
